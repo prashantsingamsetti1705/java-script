@@ -1,0 +1,13 @@
+h1{
+font-family:'monospace';
+}
+h1{
+    text-transform:uppercase; 
+    /* and diffrent property init */
+}
+p{
+    line-height:30px;
+    line-spacing:30px;
+    text-align:center;
+    text-decoration:underline;
+}

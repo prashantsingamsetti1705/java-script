@@ -1,0 +1,15 @@
+h1 {
+    color:blue; /* Green */
+}
+/* rgb(red,green,blue) */
+h2 {
+    color:rgb(255,99,77);
+    background-color:rgb(255,233,55);
+}
+/* #(ff,ff,ff) */
+h3{
+    color:#ff0000; /* Red */
+}
+h2 {
+    color:rgb(255,99,77,alpha)
+}

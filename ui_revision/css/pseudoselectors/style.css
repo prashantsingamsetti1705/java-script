@@ -1,0 +1,12 @@
+.link:link{
+color:red
+}
+.visited:visited{
+    color:yellow;
+}
+.hover:hover{
+    color:red;
+}
+.active:active{
+    color:teal;
+}
