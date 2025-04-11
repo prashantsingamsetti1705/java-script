@@ -1,0 +1,21 @@
+.conatiner{
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+/* .conatiner{
+    display:flex;
+    height:100px;
+    width:100px;
+    background-color:blue;
+    /* transform:translate(100px,100px); */
+    /* transform:translateX(100px);
+    transform:rotate(45deg); */
+} */
+.conatiner{
+    display:flex;
+    height:100px;
+    width:100px;
+    background-color:blue;
+}

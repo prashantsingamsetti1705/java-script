@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+.container{
+    padding:20px;
+    background:black;
+    height:100vh;
+    display:grid;
+    grid-template-columns:100px 100px 100px ;
+    grid-template-rows:200px 200px 200px ;
+    /* grid-gap:100px; */
+}
+.s{
+    padding:20px;
+    margin:10px;
+    color:white;
+    text-align:center;
+    background:blue;
+}
+header{
+    grid-column:1/4;
+    grid-row:1/2;
+}
+nav{
+grid-column:1/3;
+grid-row:2/4;
+}
+aside{
+grid-row:2/3;
+}
+aside{
+    grid-row:1/3;
+    }
