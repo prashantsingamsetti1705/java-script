@@ -111,3 +111,18 @@ income:2000
 // add ing the new  data
 obj.newdata="newdta"
 console.log(obj);
+// function
+console.log("hello world5");
+let a=10
+let b=20
+let c=23
+let resule=(a*10)+(b*20)+(c*30)
+console.log(resule);
+// function printthevalue
+function printthevalue(){
+   let res=(23+10)
+   res=res/3
+   console.log(res);
+}
+printthevalue()
+printthevalue()
