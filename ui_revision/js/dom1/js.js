@@ -39,3 +39,11 @@
 //         flag=0 
 //     }
 // })
+let s=document.querySelectorAll("h1")
+console.log(s)
+
+s.forEach((e)=>{
+    console.log(e);
+})
+// documet.getElemntbyId("")
+// document.getElementsByClassName("")
