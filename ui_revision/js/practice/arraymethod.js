@@ -26,3 +26,19 @@ let newarr=arr3.reduce((val,curr)=>{
 return val+curr;
 })
 console.log(newarr);
+
+function starline(n){
+    var ans="";
+    for (var i=0; i<n; i++){
+        ans=ans+"*"
+    }
+    console.log(ans)
+}
+
+function starp(n){
+    for (var i=0; i<n; i++){
+        starline(i)
+    }
+}
+var ans2=starp(10)
+console.log(ans2)
