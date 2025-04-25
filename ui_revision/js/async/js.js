@@ -91,21 +91,28 @@
 // khana pakao khana khao
 // incognito kholo chalo
 // soja kyuki tum thak gaye ho
-var ans=new Promise((res,rej)=>{
-return res("base phleghar phoavo")
-})
-var p2=ans .then((data)=>{
-    console.log(data)
-   return new Promise((resolve, reject) => {
-        return resolve("gate kholo aur gate lago")
-    })
-})
-var p3=p2.then((data)=>{
-    console.log(data)
-    return new Promise((resolve, reject) => {
-        return resolve("khana pakao khana khao")
-    })
-})
-p3.then((a)=>{
-    console.log(a)
-})
+// var ans=new Promise((res,rej)=>{
+// return res("base phleghar phoavo")
+// })
+// var p2=ans .then((data)=>{
+//     console.log(data)
+//    return new Promise((resolve, reject) => {
+//         return resolve("gate kholo aur gate lago")
+//     })
+// })
+// var p3=p2.then((data)=>{
+//     console.log(data)
+//     return new Promise((resolve, reject) => {
+//         return resolve("khana pakao khana khao")
+//     })
+// })
+// p3.then((a)=>{
+//     console.log(a)
+// })
+// async wait
+// let getuser=async ()=>{
+//    let raw=await fetch('https://randomuser.me/api/');
+//    let ans=await raw.json()
+//    console.log(ans);
+// };
+// getuser();
